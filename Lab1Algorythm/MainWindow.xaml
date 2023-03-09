@@ -1,0 +1,26 @@
+﻿<Window x:Class="Lab1Algorythm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab1Algorythm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="953">
+    <Grid Margin="0,0,10,-6">
+        <Label Content="Метод поділу навпіл" HorizontalAlignment="Left" Height="32" Margin="45,43,0,0" VerticalAlignment="Top" Width="163" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="result" Content="Label" HorizontalAlignment="Left" Height="42" Margin="10,340,0,0" VerticalAlignment="Top" Width="267" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="temp1" Content="Label" HorizontalAlignment="Left" Height="42" Margin="245,340,0,0" VerticalAlignment="Top" Width="244" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="temp3" Content="Label" HorizontalAlignment="Left" Height="42" Margin="245,382,0,0" VerticalAlignment="Top" Width="220" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="task1" HorizontalAlignment="Left" Height="245" Margin="14,80,0,0" VerticalAlignment="Top" Width="219" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label Content="Метод Стеффенсена" HorizontalAlignment="Left" Height="32" Margin="301,38,0,0" VerticalAlignment="Top" Width="164" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="task2" HorizontalAlignment="Left" Height="250" Margin="245,78,0,0" VerticalAlignment="Top" Width="276" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label Content="Метод Лобачевського&#xD;&#xA;" HorizontalAlignment="Left" Height="32" Margin="726,39,0,0" VerticalAlignment="Top" Width="164" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="task4" HorizontalAlignment="Left" Height="245" Margin="726,80,0,0" VerticalAlignment="Top" Width="188" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label x:Name="minvalue" Content="Label" HorizontalAlignment="Left" Height="42" Margin="726,340,0,0" VerticalAlignment="Top" Width="216" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="maxvalue" Content="Label" HorizontalAlignment="Left" Height="42" Margin="726,382,0,0" VerticalAlignment="Top" Width="216" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="task3" HorizontalAlignment="Left" Height="245" Margin="534,79,0,0" VerticalAlignment="Top" Width="177" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label Content="Метод простих ітерацій" HorizontalAlignment="Left" Height="32" Margin="534,38,0,0" VerticalAlignment="Top" Width="177" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="task3x" Content="Label" HorizontalAlignment="Left" Height="42" Margin="534,340,0,0" VerticalAlignment="Top" Width="177" FontSize="14" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
